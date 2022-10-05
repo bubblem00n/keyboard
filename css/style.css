@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+  height: 100vh;
+}
+
+input {
+  width: 500px;
+  height: 40px;
+  font-size: 20px;
+  padding-left: 10px;
+  outline: none;
+  border: none;
+  background-color: lightgrey;
+}
+
+.keyboard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(175, 178, 180);
+  gap: 5px;
+
+  padding: 10px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.keys {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  border-radius: 5px;
+
+  font-size: 18px;
+}
+
+.backspace_key {
+  width: 100px;
+}
+
+.tab_key,
+.capsLock_key,
+.enter_key,
+.ctrl_key {
+  width: 100px;
+}
+
+.shift_key {
+  width: 130px;
+}
+
+.space_key {
+  width: 400px;
+}
+
+.active {
+  background-color: lightblue;
+}
